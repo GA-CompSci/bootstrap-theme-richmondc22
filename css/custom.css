@@ -18,5 +18,131 @@ body, p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Yellowtail", cursive;
+    font-family: "p22-cezanne-pro", sans-serif;
+    color:#fefae0;
+}
+
+/***font-family: p22-cezanne-pro, sans-serif;
+
+/********************/
+/******* HERO *******/
+/********************/
+
+header.masthead {
+    background: url("../img/hero2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+header.masthead h1 {
+    color:#fefae0;
+    font-size: 80px;
+    text-shadow: 4px 4px 8px black; 
+}
+
+header.masthead p {
+    color:#fefae0;
+    text-shadow: 2px 2px 6px black;
+}
+/********************/
+/****** COLORS ******/
+/********************/
+
+.btn-primary {
+    background: #fefae0;
+    color:#dda15e;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background: #dda15e !important;
+    font-weight: 1000;
+
+}
+
+hr.divider {
+    background-color: #dda15e;
+}
+
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: #283618 !important;
+}
+
+h2, .h2 {
+    font-size: 4rem;
+    color:#283618;
+}
+
+.text-primary {
+    color:#dda15e !important;
+}
+
+h4, .h4 {
+    color:#283618;
+    font-family:  "p22-cezanne-pro", sans-serif;
+    font-size: 3rem;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color:#283618 !important;
+}
+
+.btn-light {
+    --bs-btn-bg:  #fefae0;
+    color:#dda15e;
+}
+
+/********************/
+/******* NAV ********/
+/********************/
+
+#mainNav.navbar-shrink {
+    background-color:#fefae0;
+    background: rgba(254, 250, 224, 0.8);
+}
+
+#mainNav.navbar-shrink .navbar-brand,
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link, {
+    
+}
+
+#mainNav.navbar-shrink .navbar-brand:hover,
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color:#bc6c25 !important;
+    
+}
+
+
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(221, 161, 94, 0.9);
+    transition: opacity 0.25s ease;
+    text-align: center;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color:#283618 !important;
+}
+
+.text-white {
+    --bs-text-opacity: 1;
+    color:#fefae0 !important;
+}
+
+hr {
+border-top: 1px solid #283618;
 }

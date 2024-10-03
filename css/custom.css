@@ -1,6 +1,11 @@
 /***** 
 COLOR CHEAT SHEET 
-
+https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25
+606c38 - olive green
+283618 - dark green
+fefae0 - off white
+dda15e - apricot orange
+bc6c25 - dark orange
 
 *****/
 
@@ -9,9 +14,9 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
-
+    font-family: "Nanum Myeongjo", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-
+    font-family: "Yellowtail", cursive;
 }

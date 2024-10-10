@@ -26,10 +26,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /********************/
 /******* HERO *******/
-/********************/
-
+/********************/ /***url("https://golfatkapalua.com/wp-content/uploads/2023/12/Plant-7-sec.mp4"); ***/
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Make sure the video is behind other content */
+}
+.masthead {
+    position: relative;
+    height: 100vh;/* Adjust height as needed */
+}
 header.masthead {
-    background: url("../img/hero2.jpg");
+    background:none;
     background-position: center;
     background-size: cover;
 }
@@ -146,3 +158,16 @@ h4, .h4 {
 hr {
 border-top: 1px solid #283618;
 }
+
+
+h5, .h5 {
+    font-size: 2rem;
+}
+
+
+
+
+<video loop="loop" autoplay="" playsinline="" muted="" id="mejs_9498448582204488_html5" preload="none" src="https://golfatkapalua.com/wp-content/uploads/2023/12/Plant-7-sec.mp4" style="margin: 0px; width: 2552px; height: 1435.5px;">
+				<source type="video/mp4" src="https://golfatkapalua.com/wp-content/uploads/2023/12/Plant-7-sec.mp4">
+				
+			</video>

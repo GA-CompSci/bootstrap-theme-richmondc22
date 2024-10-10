@@ -125,11 +125,6 @@ h4, .h4 {
     background: rgba(254, 250, 224, 0.8);
 }
 
-#mainNav.navbar-shrink .navbar-brand,
-#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link, {
-    
-}
-
 #mainNav.navbar-shrink .navbar-brand:hover,
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
 #mainNav .navbar-nav .nav-item .nav-link.active {
@@ -174,9 +169,6 @@ border-top: 1px solid #283618;
 h5, .h5 {
     font-size: 2rem;
 }
-
-
-
 
 <video loop="loop" autoplay="" playsinline="" muted="" id="mejs_9498448582204488_html5" preload="none" src="https://golfatkapalua.com/wp-content/uploads/2023/12/Plant-7-sec.mp4" style="margin: 0px; width: 2552px; height: 1435.5px;">
 				<source type="video/mp4" src="https://golfatkapalua.com/wp-content/uploads/2023/12/Plant-7-sec.mp4">

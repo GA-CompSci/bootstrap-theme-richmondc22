@@ -50,6 +50,9 @@ header.masthead h1 {
     color:#fefae0;
     font-size: 80px;
     text-shadow: 4px 4px 8px black; 
+    overflow: hidden;
+    white-space: nowrap;
+
 }
 
 header.masthead p {
@@ -69,6 +72,10 @@ header.masthead p {
     background: #dda15e !important;
     font-weight: 1000;
 
+}
+
+h1, .h1 {
+    line-height: 1.7;
 }
 
 hr.divider {

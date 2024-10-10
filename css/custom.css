@@ -112,6 +112,10 @@ h4, .h4 {
     color:#dda15e;
 }
 
+.bg-light {
+    background-color: #fefae0 !important;
+}
+
 /********************/
 /******* NAV ********/
 /********************/
